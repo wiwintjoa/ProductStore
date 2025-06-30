@@ -3,23 +3,35 @@
 Product store is one of my portfolio project. This project is to demonstrated using some technology stack like: MongoDB, Express.js, React.js and Node.js
 
 The Product API have several endpoint:
+- `POST`
+
 ```bash
- - POST: curl --location 'http://localhost:5000/api/products' \
+ curl --location 'http://localhost:5000/api/products' \
 --header 'Content-Type: application/json' \
 --data '{
     "name": "Smart watch Xiaomi",
     "price": "49.99",
     "image":"https://unsplash.com/photos/person-holding-white-and-gold-round-analog-watch-gevGqFpwqnY"
 }'
+```
 
- - PUT: curl --location --request PUT 'http://localhost:5000/api/products/68624358fbb0c122f320c045' \
+ - `PUT` 
+```bash
+curl --location --request PUT 'http://localhost:5000/api/products/68624358fbb0c122f320c045' \
 --header 'Content-Type: application/json' \
 --data '{
     "name": "Smart watch Apple"
 }'
- - DELETE: curl --location --request DELETE 'http://localhost:5000/api/products/68624358fbb0c122f320c045'
+```
 
- - GET: curl --location 'http://localhost:5000/api/products'
+ - `DELETE` 
+```bash
+ - curl --location --request DELETE 'http://localhost:5000/api/products/68624358fbb0c122f320c045'
+```
+
+ - `GET`
+```bash
+ - curl --location 'http://localhost:5000/api/products'
 ```
 
 
