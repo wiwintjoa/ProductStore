@@ -1,6 +1,14 @@
+
 # MERN - Product Store
 
-Product store is one of my portfolio project. This project is to demonstrated using some technology stack like: MongoDB, Express.js, React.js and Node.js
+Product store is one of my portfolio project. This project is to demonstrated using some technology stack like:
+- **MongoDB** for database management: https://www.mongodb.com/
+- **Express.js** Node js framework: https://expressjs.com/
+- **Vite** Tool for building the web: https://vite.dev/
+- **React.js** : JavaScript framework used for front end: https://react.dev/
+- **Node.js**: JavaScript runtime environment: https://nodejs.org/en
+- **Chakra UI**: UI great Themes: https://chakra-ui.com/
+- **Zustand** for state management: https://www.npmjs.com/package/zustand
 
 The Product API have several endpoint:
 - `POST`
@@ -43,7 +51,7 @@ npm run install
 ## Live Demo
 
 ```
-Still in progress
+see this link to live demo: https://drive.google.com/file/d/1oI9bTp6VtR1zi0V4ES_UMBLb1TM05bQm/view
 ```
 
 ## Contributing
